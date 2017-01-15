@@ -11,7 +11,7 @@ public class StudentDao {
 	
 	
 	Session session=HibernateUtil.getSessionFactory().openSession();
-	
+	//this will add the student
 	public void addStudent(){
 		Student student=new Student();
 		student.setStudentName("rakib4");
